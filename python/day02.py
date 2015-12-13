@@ -16,4 +16,4 @@ for line in lines:
     ribbon += 2 * (dims[0] + dims[1])
     ribbon += dims[0] * dims[1] * dims[2]
 
-print("Area: {0}\nRibbon: {1}".format(area, ribbon))
+print("Part 1: {0}sqft. of paper.\nPart 2: {1}ft. of ribbon.".format(area, ribbon))
