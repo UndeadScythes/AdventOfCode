@@ -36,4 +36,4 @@ result = len(sequence)
 for i in range(0, 10):
     sequence = look_and_say(sequence)
 
-print("First length: {0}, Second length: {1}".format(result, len(sequence)))
+print("Part 1: First length: {0}.\nPart 2: Second length: {1}.".format(result, len(sequence)))

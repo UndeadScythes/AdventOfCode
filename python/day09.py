@@ -46,4 +46,5 @@ for ordering in orderings:
         long_route = test_route
         
 
-print("Shortest route: {0}, Longest route: {1}".format(short_route, long_route))
+print("Part 1: Shortest route: {0}.".format(short_route,))
+print("Part 2: Longest route: {0}.".format( long_route))

@@ -26,4 +26,4 @@ for i in range(len(instructions)):
     if newLocation:
         visited += [[location[robo][0], location[robo][1]]]
         
-print("Houses: {0}".format(len(visited)))
+print("Part 2: {0} houses visited.".format(len(visited)))

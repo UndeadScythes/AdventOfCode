@@ -15,4 +15,5 @@ for line in lines:
     if re.search(r"([a-z]{2})[a-z]*\1", line) and re.search(r"([a-z])[a-z]\1", line):
         niceStrings_v2 += 1
     
-print("Nice strings v1: {0}\nNice strings v2: {1}".format(niceStrings_v1, niceStrings_v2))
+print("Part 1: {0} nice strings.".format(niceStrings_v1))
+print("Part 2: {0} nice strings.".format(niceStrings_v2))
