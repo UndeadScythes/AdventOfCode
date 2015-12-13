@@ -19,4 +19,4 @@ for line in lines:
 memory = string_count - memory_count
 escaped_memory  = escaped_count - string_count
 
-print("Memory: {0}, Escaped: {1}".format(memory, escaped_memory))
+print("Memory: {0}\nEscaped: {1}".format(memory, escaped_memory))

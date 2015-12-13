@@ -47,4 +47,4 @@ wires = {"b": wire_a_a}
 
 wire_a_b = calculate("a")
 
-print("Wire \"a\": first iteration: {0}, second iteration: {1}".format(wire_a_a, wire_a_b))
+print("Wire \"a\": first iteration: {0}\nsecond iteration: {1}".format(wire_a_a, wire_a_b))

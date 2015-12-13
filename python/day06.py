@@ -47,4 +47,4 @@ for x in range(1000):
         lights_on += lights[x][y]
         brightness_total += brightness[x][y]
 
-print("Lights on: {0}, Brightness: {1}".format(lights_on, brightness_total))
+print("Lights on: {0}\nBrightness: {1}".format(lights_on, brightness_total))
