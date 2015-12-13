@@ -14,4 +14,4 @@ while not hashKey.startswith("000000"):
     function.update(numberKey.encode("utf-8"))
     hashKey = function.hexdigest()
 
-print("Number: {0}".format(number))
+print("Part 2: Suffix: {0}.".format(number))

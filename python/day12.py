@@ -32,4 +32,4 @@ for number in numbers:
 
     non_red_count += int(number)
 
-print("Total: {0}, Non-red total: {1}".format(count, non_red_count))
+print("Part 1: Total: {0}.\nPart 2: Non-red total: {1}.".format(count, non_red_count))

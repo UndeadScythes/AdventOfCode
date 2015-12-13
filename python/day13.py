@@ -54,4 +54,4 @@ for layout in layouts:
     if test_happiness > happiness:
         happiness = test_happiness
 
-print("Optimal happiness: {0}".format(happiness))
+print("Part 2: Optimal happiness: {0}.".format(happiness))

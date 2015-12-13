@@ -51,5 +51,5 @@ def get_new_password(password):
 
 new_password = get_new_password(old_password)
 
-print("First password: {0}, Second password: {1}".format(new_password, get_new_password(new_password)))
+print("Part 1: First password: {0}.\nPart 2: Second password: {1}.".format(new_password, get_new_password(new_password)))
 
