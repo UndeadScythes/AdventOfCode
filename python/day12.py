@@ -26,8 +26,6 @@ while True:
 
 non_red_count = 0
 
-print(line)
-
 numbers = re.findall(r"(-?\d+)", line)
 
 for number in numbers:
